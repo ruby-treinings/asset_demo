@@ -1,0 +1,10 @@
+<h1>Hello from Rails!</h1>
+
+<div id="webpack-hello" class="js-content-box"></div>
+<div id="webpack-jquery-hello" class="js-content-box"></div>
+<div id="inline-hello" class="js-content-box"></div>
+
+<%= javascript_tag do %>
+  const helloEl = document.getElementById('inline-hello')
+  helloEl.innerText = 'Hello from inline JavaScript!'
+<% end %>

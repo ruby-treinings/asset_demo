@@ -11,3 +11,9 @@ gem install rails --version 6.1.7 --no-doc
 
 rails _6.1.7_ new asset_demo --skip-turbolinks --skip-spring
 ```
+
+## Adding libraries
+
+```bash
+yarn add jquery
+```
