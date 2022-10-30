@@ -4,6 +4,9 @@
 // that code so it'll be compiled.
 
 import Rails from "@rails/ujs"
+
+require('jquery-ui/dist/jquery-ui')
+
 // import * as ActiveStorage from "@rails/activestorage"
 // import "channels"
 import "../src/main.js"

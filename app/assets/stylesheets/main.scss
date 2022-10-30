@@ -4,9 +4,29 @@
 
 @import "vars";
 
-.js-content-box {
-  border: 1px solid #4e4e4e;
+.js-content-box,
+.jquery-ui-content-box {
+  border: 1px solid $box-border-color;
   margin: 2rem auto;
   padding: 0.4rem;
   width: $content-width;
+}
+
+.jquery-ui-section {
+  margin: 2rem auto;
+  padding: 0.4rem;
+  width: $content-width;
+
+  input {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    line-height: 1;
+    padding-bottom: 6.4px;
+    padding-top: 6.4px;
+    vertical-align: middle;
+  }
+
+  .ui-button {
+    line-height: 1;
+  }
 }
