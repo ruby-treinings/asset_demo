@@ -7,6 +7,7 @@
 require("images/gradient2.png")
 
 import Rails from "@rails/ujs"
+import * as bootstrap from "bootstrap"
 
 require('jquery-ui/dist/jquery-ui')
 
