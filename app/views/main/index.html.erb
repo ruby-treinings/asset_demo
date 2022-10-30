@@ -4,7 +4,33 @@
 <div id="sprockets-jquery-hello" class="js-content-box"></div>
 <div id="inline-hello" class="js-content-box"></div>
 
-<%= image_tag "gradient3.png" %>
+<div class="jquery-ui-section">
+  <h2>jQuery UI</h2>
+  <div class="jquery-ui-content-box">
+    <input type="text" id="jquery-ui-datepicker">
+    <button id="jquery-ui-datepicker-trigger"></button>
+
+    <button class="ui-button ui-widget ui-corner-all" id="open-dialog">Show dialog</button>
+
+    <div id="dialog" class="hidden" title="Basic dialog">
+      <p>You have picked: <span data-field="selected-date"></span></p>
+    </div>
+  </div>
+</div>
+
+<div class="image-section">
+  <h2>Images</h2>
+
+  <h3>From CSS</h3>
+  <div class="image-block gradient-image-bg"></div>
+
+  <h3>From HTML (image_tag)</h3>
+  <div class="image-block">
+    <%= image_tag "gradient3.png" %>
+  </div>
+</div>
+
+
 
 <%= javascript_tag do %>
   const helloEl = document.getElementById('inline-hello')
