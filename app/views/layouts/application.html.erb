@@ -10,7 +10,8 @@
     <%= javascript_include_tag 'application' %>
   </head>
 
-  <body>
+  <body data-bs-no-jquery>
+    <%= render 'layouts/navbar' %>
     <%= yield %>
   </body>
 </html>
