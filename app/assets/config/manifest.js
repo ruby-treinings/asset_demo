@@ -1,2 +1,1 @@
-//= link_tree ../images
-//= link_directory ../stylesheets .css
+// empty file for sprockets
