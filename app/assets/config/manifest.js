@@ -1,1 +1,1 @@
-// empty file for sprockets
+//= link_tree ../images

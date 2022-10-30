@@ -18,6 +18,23 @@
   </div>
 </div>
 
+<div class="image-section">
+  <h2>Images</h2>
+
+  <h3>From CSS</h3>
+  <div class="image-block gradient-image-bg"></div>
+
+  <h3>From HTML (image_pack_tag)</h3>
+  <div class="image-block">
+    <%= image_pack_tag 'gradient2.png' %>
+  </div>
+
+  <h3>From HTML (image_tag)</h3>
+  <div class="image-block">
+    <%= image_tag 'gradient3.png' %>
+  </div>
+</div>
+
 <%= javascript_tag do %>
   const helloEl = document.getElementById('inline-hello')
   helloEl.innerText = 'Hello from inline JavaScript!'
