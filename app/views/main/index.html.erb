@@ -18,6 +18,14 @@
   </div>
 </div>
 
+<div class="bootstrap-section">
+  <h2>Bootstrap</h2>
+  <div class="bootstrap-content-box">
+    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Show modal</button>
+    <%= render "bootstrap_modal" %>
+  </div>
+</div>
+
 <%= javascript_tag do %>
   const helloEl = document.getElementById('inline-hello')
   helloEl.innerText = 'Hello from inline JavaScript!'

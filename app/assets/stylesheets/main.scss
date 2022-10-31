@@ -5,7 +5,8 @@
 @import "vars";
 
 .js-content-box,
-.jquery-ui-content-box {
+.jquery-ui-content-box,
+.bootstrap-content-box {
   border: 1px solid $box-border-color;
   margin: 2rem auto;
   padding: 0.4rem;
@@ -29,4 +30,10 @@
   .ui-button {
     line-height: 1;
   }
+}
+
+.bootstrap-section {
+  margin: 2rem auto;
+  padding: 0.4rem;
+  width: $content-width;
 }

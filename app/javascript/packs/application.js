@@ -4,6 +4,7 @@
 // that code so it'll be compiled.
 
 import Rails from "@rails/ujs"
+import * as bootstrap from "bootstrap"
 
 require('jquery-ui/dist/jquery-ui')
 

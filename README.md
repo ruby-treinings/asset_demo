@@ -17,4 +17,6 @@ rails _6.1.7_ new asset_demo --skip-turbolinks --skip-spring
 ```bash
 yarn add jquery
 yarn add jquery-ui
+yarn add bootstrap@5.2
+yarn add @popperjs/core
 ```
