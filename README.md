@@ -1,5 +1,24 @@
 # README
 
+## Ho to run this code
+
+```bash
+# clone repository
+git clone https://github.com/ruby-treinings/asset_demo.git
+cd asset_demo
+
+# install Ruby dependencies with bundler
+bundle install
+
+# install JavaScript dependencies with yarn
+./bin/yarn
+
+# run Rails server
+./bin/rails s
+
+# Open http://localhost:3000 in your browser
+```
+
 ## Creating new project
 
 ```bash
